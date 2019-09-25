@@ -1,0 +1,160 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.verticalLine{
+	position: absolute;
+	border-left: 3px solid lightgrey;
+	border-left-width: 1px;
+	height: 600px;
+	width:250px;
+	top: 15%;
+	left: 50%;
+}
+
+.background{
+	background-image: url("gwalior/bg.jpg");
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: blur(3px);
+}
+
+.mainHeading{
+	position: absolute;
+	top: 2%;
+	left: 43%;
+	font-size: 50px;
+	font-family: "Times";
+	color: white;
+	text-shadow: -1px 1px 0 #000, 
+                  1px 1px 0 #000, 
+                 1px -1px 0 #000, 
+                -1px -1px 0 #000,
+                10px 10px 10px black;
+}
+
+.frame{
+	position: absolute;
+	border: 3px solid white;
+	border-radius: 5px;
+	height: 250px;
+	width:250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow:8px 8px 60px black,
+				-8px -8px 60px black;
+}
+
+#temple{
+	top: 15%;
+	left: 5%;
+	background-image: url("gwalior/temple.jpg");
+	background-size: 140% 100%;
+}
+
+#fort{
+	top: 15%;
+	left: 78%;
+	background-image: url("gwalior/fort.jpg");
+	background-size: 140% 100%;
+}
+
+#jaiVilas{
+	top: 60%;
+	left: 5%;
+	background-image: url("gwalior/jaiVilas.jpg");
+	background-size: 140% 100%;
+}
+
+#zoo{
+	top: 60%;
+	left: 78%;
+	background-image: url("gwalior/zoo.jpg");
+	background-size: 140% 100%;
+}
+
+#temple:hover, #fort:hover, #jaiVilas:hover, #zoo:hover{
+	height: 255px;
+	width: 255px;
+	transition: height 0.3s ease, width 0.3s ease;
+}
+
+.heading{
+	position: absolute;
+	height: 50px;
+	width: 390px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "Times";
+	color: black;
+	text-align: center;
+	text-shadow: -1px 1px 0 lightgrey, 
+                  1px 1px 0 lightgrey, 
+                 1px -1px 0 lightgrey, 
+                -1px -1px 0 lightgrey,
+                10px 10px 10px black;
+}
+
+#templeHeading{
+	top:15%;
+	left: 22.52%;
+}
+
+#fortHeading{
+	top:15%;
+	left: 50.52%;
+}
+
+#jaiVilasHeading{
+	top:60%;
+	left: 22.52%;
+}
+
+#zooHeading{
+	top:60%;
+	left: 50.52%;
+}
+
+.content{
+	position: absolute;
+	height: 200px;
+	width: 350px;
+	text-align: left;
+	margin-left: 5px; 
+	font-family: serif;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	text-shadow: -1px 1px 0 black, 
+                  1px 1px 0 black, 
+                 1px -1px 0 black, 
+                -1px -1px 0 black;
+}
+
+#templeContent{
+	top:22%;
+	left: 24%;
+}
+
+#fortContent{
+	top:22%;
+	left: 51.7%;
+}
+
+#jaiVilasContent{
+	top:67%;
+	left: 24%;
+}
+
+#zooContent{
+	top:67%;
+	left: 51.7%;
+}

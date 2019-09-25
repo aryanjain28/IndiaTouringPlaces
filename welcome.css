@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bgImage {
+  background-image: url("welcome/city.jpeg");
+  filter: blur(3px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frame {
+ 
+  border: 3px solid white;
+  border-radius: 5px;
+  text-align: center;
+  width: 18%;
+  height: 32%;
+  color: black;
+  font-weight: bold;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.frame:hover{
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#chennai{
+	background-image: url("welcome/chennai.jpg");
+	top: 10%;
+	left: 12%;
+}
+
+#pune{
+	background-image: url("welcome/pune.jpg");
+	top: 10%;
+	left: 40%;
+}
+
+#gwalior{
+	background-image: url("welcome/Gwalior.jpg");
+	top: 10%;
+	left: 68%;
+}
+
+#mumbai{
+	background-image: url("welcome/mumbai.jpeg");
+	top: 54%;
+	left: 12%;
+}
+
+#delhi{
+	background-image: url("welcome/delhi.jpeg");
+	top: 54%;
+	left: 40%;
+}
+
+#hyderabad{
+	background-image: url("welcome/hyderabad.png");
+	top: 54%;
+	left: 68%;
+}
